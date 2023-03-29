@@ -44,7 +44,7 @@
 
   <wsdl:service name="crearRegistro">
     <wsdl:port name="CrearRegistroPortType" binding="tns:CrearRegistroBinding">
-      <soap:address location="/"/>
+      <soap:address location="http://localhost:8080/services/test-soap"/>
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>
